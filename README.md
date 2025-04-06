@@ -8,3 +8,10 @@ We collect real carbon intensity data from the UK National Grid Carbon Intensity
 - 📅 Past 7 days
 - ⛽ Emissions measured in gCO2/kWh
 - 🧠 Stored as `data/carbon_intensity.csv` for ML model use
+
+### ✅ Phase 5: Streamlit Dashboard (Updated)
+
+- Displays scheduled task energy overlaid on grid carbon intensity
+- Human-readable task instructions generated from schedule
+- Summary of estimated carbon emissions per schedule
+- Built with Streamlit + Matplotlib
