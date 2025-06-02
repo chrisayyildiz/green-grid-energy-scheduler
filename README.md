@@ -1,11 +1,11 @@
-# ⚡ Green Grid Energy Scheduler
+# Green Grid Energy Scheduler
 
 A machine learning-powered optimiser that helps commercial buildings schedule their non-critical energy tasks during periods of low grid carbon intensity.  
 Built with FastAPI, Streamlit, Prophet, and Google OR-Tools.
 
 ---
 
-## 🧠 What’s it for?
+## What’s it for?
 
 This system answers a simple but important question:
 
@@ -19,7 +19,7 @@ It uses:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component       | Technology                          |
 |----------------|--------------------------------------|
@@ -31,16 +31,16 @@ It uses:
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
-- ✅ **Machine Learning Forecasting**  
+- **Machine Learning Forecasting**  
   Uses Prophet to forecast 7 days of grid carbon intensity using real UK National Grid data.
 
-- ✅ **Multi-task, multi-day scheduling**  
+- **Multi-task, multi-day scheduling**  
   Optimise multiple systems with different energy requirements and windows.
 
-- ✅ **Interactive Dashboard**  
+- **Interactive Dashboard**  
   Define tasks, run the optimiser, and visualise results in seconds.
 
-- ✅ **Modular Design**  
+- **Modular Design**  
   Clean separation between ML, API, optimiser, and UI — easy to build on.
